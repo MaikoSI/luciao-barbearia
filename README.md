@@ -28,16 +28,6 @@ Site de uma página para a **Lúcião Barbearia**, uma barbearia real de Palmeir
 - Bootstrap 5.3.3 (via CDN, com verificação de integridade)
 - Google Fonts (Montserrat, Oswald e Playfair Display)
 
-## Como rodar
-
-Não há instalação nem build. Abra o `index.html` no navegador ou sirva a pasta:
-
-```
-python3 -m http.server 8000
-```
-
-Depois acesse `http://localhost:8000`.
-
 ## O que aprendi
 
 - **Um site bonito não basta para gerar agendamentos.** O cliente de um negócio local precisa achar rápido o horário, o endereço e o jeito de marcar. Isso pesou mais nas decisões do que os efeitos visuais.
