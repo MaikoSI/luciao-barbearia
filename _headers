@@ -1,0 +1,12 @@
+# Cabeçalhos de segurança. Este arquivo é lido automaticamente pelo Netlify e pelo Cloudflare Pages.
+# Em outras hospedagens (GitHub Pages, por exemplo) ele é ignorado e não causa problema.
+/*
+  # Impede que outro site coloque esta página dentro de um <iframe> para enganar visitantes.
+  X-Frame-Options: DENY
+  Content-Security-Policy: frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  # O site não usa câmera, microfone nem localização.
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  # Sempre HTTPS depois da primeira visita.
+  Strict-Transport-Security: max-age=31536000
